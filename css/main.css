@@ -1,0 +1,171 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: Verdana, serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 2 auto;
+
+}
+
+h1 {
+    text-align: center;
+    border-style: solid;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding: 0.7em;
+    background-color: mistyrose;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 1em;
+    box-sizing: inherit;
+    border-style: solid;
+    margin-top: 0;
+    background-color: pink;
+}
+
+nav ul li {
+    position: relative;
+    padding-right: 1em;
+    margin: 0;
+  
+}
+
+.dropdown > ul {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown > ul li {
+    white-space: nowrap;
+    padding: 0 2em;
+}
+
+.dropdown:hover > ul {
+    display: block;
+}
+
+nav a:link {
+    font-family: Verdana, serif;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
+    ;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    border-style: solid;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 2em;
+    background-color: mistyrose;
+    
+}
+
+p {
+    padding: 1em;
+    padding-top: 0em;
+    text-align: left;
+    margin-top: 0;
+}
+
+img{
+    padding: 1em;
+    background-color: white;
+}
+
+#everyday .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+#everyday .column{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+#redesign .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+#redesign .column{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+#respons .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+#respons .column{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+#karakterdesign .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+#karakterdesign .column{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+
+#scene .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+#scene .column{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+#dokumentation .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+#dokumentation .column{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+#cv .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+#cv .column{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
